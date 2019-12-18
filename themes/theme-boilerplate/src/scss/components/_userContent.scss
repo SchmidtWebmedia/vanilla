@@ -45,6 +45,9 @@ $code-block_padding:                    $userContent_fontSize !default;
         position: relative;
         margin: 0 auto;
         display: block;
+        &.emoji {
+            display: inline-block;
+        }
     }
 
     p,
